@@ -26,7 +26,7 @@ splitting and converting conversation to instruction-response pairs.
 
 30-08-2024
 ----------
-implemented Storm technique for Data Curation as described in this [paper](https://huggingface.co/blog/akjindal53244/llama31-storm8b). 
+implemented Self-Curation technique for Data Curation as described in this [paper](https://huggingface.co/blog/akjindal53244/llama31-storm8b). 
 Used strong models like Meta Llama and Facebook Bert Classifier to separate quality data.
 
 26-08-2024
@@ -47,12 +47,13 @@ implemented [Agent Instruct](./techniques/agent_instruct/). Used Phi-3 mini for 
 ```
 
 ## ✅ Techniques
-1. Self Instruct
-2. Magpie
-3. Agent Instruct with Arena Learning
-4. Storm 
-5. Genstruct
-6. Instruction Synthesizer
+1. [Self Instruct](https://huggingface.co/blog/sc2-instruct)
+2. [Magpie](https://github.com/magpie-align/magpie)
+3. [Agent Instruct](https://arxiv.org/html/2407.03502v1)
+4. [Self-Curation](https://huggingface.co/blog/akjindal53244/llama31-storm8b)
+5. [Genstruct](https://huggingface.co/NousResearch/Genstruct-7B)
+6. [Instruction Synthesizer](https://huggingface.co/instruction-pretrain/instruction-synthesizer)
+7. [Arena Learning](https://arxiv.org/abs/2407.10627)
 
 ## Setup
 **1. Install Dependencies:**
