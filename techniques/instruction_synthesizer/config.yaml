@@ -1,0 +1,17 @@
+hf-token: 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
+
+datasets:
+  - path: ahsanirfan961/title-content-dataset
+    type: input
+
+  - path: ahsanirfan961/instruction-synthesizer-output
+    type: output
+
+models:
+  - path: instruction-pretrain/instruction-synthesizer
+    type: instruct
+
+
+input-batch-size: 1
+max-tokens: 1024
+temperature: 0.7

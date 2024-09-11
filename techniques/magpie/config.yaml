@@ -1,0 +1,11 @@
+datasets:
+  initial: "ahsanirfan961/magpie-initial"
+  push: "ahsanirfan961/magpie-final"
+
+model: "Doctor-Shotgun/TinyLlama-1.1B-32k-Instruct"
+magpie_pre_query_template: "llama3"
+
+temperature: 1.0
+max_tokens: 256
+
+conversation_turns: 2

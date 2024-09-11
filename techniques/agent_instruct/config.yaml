@@ -1,0 +1,13 @@
+input-batch-size: 1
+max-tokens: 1024
+temperature: 0.7
+
+models:
+  agent-instruct: "microsoft/Phi-3.5-mini-instruct"
+
+question_gen_prompt: "This AI assistant is designed to generate a series of relevant and thought-provoking questions based on the provided context or input. The goal is to generate questions that cover different aspects of the topic without providing answers. The goal is to create an AI that can simulate human-like understanding and reasoning to respond to any query effectively."
+
+suggestion_gen_prompt: "You are an AI assistant tasked with generating suggestions to improve a given question. Your task is to analyze the provided question and generate exactly three distinct suggestions that enhance its complexity, quality, or diversity. These suggestions should maintain the core meaning of the original question while introducing new elements or perspectives. Focus on generating creative and informative suggestions that could lead to more challenging and thought-provoking questions. Do not include any introductory or concluding statements and avoid using any special formatting or headings. Simply provide three clear and concise suggestions."
+
+refined_question_gen_prompt: "You are an AI assistant tasked with generating refined questions based on provided suggestions. Modify the question according to these suggestions to create exactly three new, more refined and complex questions.  Each question should be numbered sequentially, starting with the number 1, and end with a question mark. Do not include any additional text, formatting, or explanation. Simply provide the questions in the following format: 1. [Question] 2. [Question] 3. [Question]"
+

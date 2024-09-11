@@ -1,0 +1,24 @@
+batch-size: 4
+
+datasets:
+  initial: "hassaan-qaisar/arena_ouput"
+  curated-push: "ahsanirfan961/curated-storm"
+
+models:
+  classification: "facebook/bart-large-mnli"
+
+labels:
+  educative: 
+    - Extremely Educative
+    - Very Educative
+    - Moderately Educative
+    - Less Educative
+    - Not Educative
+  difficulty:
+    - Hard Difficulty
+    - Medium Difficulty
+    - Easy Difficulty
+      
+thresholds:
+  educative: 3    # instructions with educative score >= 3 will be considered educative
+  difficulty: 1   # instructions with difficulty score >= 1 will be considered difficult

@@ -1,0 +1,21 @@
+hf-token: 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
+
+datasets:
+  - path: hassaan-qaisar/initial_prompt
+    type: input
+
+  - path: ahsanirfan961/arena-dataset
+    type: output
+
+models:
+  - path: microsoft/Phi-3.5-mini-instruct
+    type: instruct
+
+  - path: Doctor-Shotgun/TinyLlama-1.1B-32k-Instruct
+    type: response
+
+input-batch-size: 1
+max-tokens: 1024
+temperature: 0.7
+
+instructions_per_seed: 5

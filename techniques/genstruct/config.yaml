@@ -1,0 +1,17 @@
+hf-token: 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
+
+datasets:
+  - path: ahsanirfan961/title-content-dataset
+    type: input
+
+  - path: ahsanirfan961/genstruct-output
+    type: output
+
+models:
+  - path: NousResearch/Genstruct-7B
+    usage: instruct
+
+
+input-batch-size: 1
+max-tokens: 1024
+temperature: 0.7

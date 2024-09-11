@@ -1,0 +1,4 @@
+datasets:
+  initial: "hassaan-qaisar/initial_prompt"
+  instructions-push: "ahsanirfan961/arena-dataset"
+  intruction-response-push: "ahsanirfan961/arena_output"
